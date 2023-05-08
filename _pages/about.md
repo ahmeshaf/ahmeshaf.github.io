@@ -1,13 +1,14 @@
 ---
 layout: about
 title: about
+
 permalink: /
 subtitle: PhD Candidate in Dept. of Computer Science at <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p>Room #127 Buchanan Building</p>
     <p>University of Colorado</p>
