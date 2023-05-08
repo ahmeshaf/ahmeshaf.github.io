@@ -3,3 +3,5 @@ github_users:
 
 github_repos:
   - ahmeshaf/ahmeshaf.github.io
+  - ahmeshaf/coreference_and_annotations
+  - ahmeshaf/lemma_ce_coref
