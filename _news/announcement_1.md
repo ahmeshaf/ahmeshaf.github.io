@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-05-2
+date: 2023-05-22
 inline: true
 related_posts: false
 ---
 
-Our paper *$$2*n$$ is better than $$n^2$$: Decomposing Event Coreference Resolution into Two Tractable Problems* was accepted to Findings of the Association of Computational Linguistics, 2023.
+Starting summer internship at [explosion.ai](https://explosion.ai/) (Makers of [spaCy](https://spacy.io/)).
