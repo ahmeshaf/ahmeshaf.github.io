@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-07-9
+date: 2023-06-06
 inline: true
 related_posts: false
 ---
 
-Visiting Toronto, Canada for the ACL conference from July 9-14. [Checkout the pics here](/projects/acl_2023)!
+New preprint released: [https://arxiv.org/abs/2306.05434](https://arxiv.org/abs/2306.05434).
