@@ -5,7 +5,7 @@ permalink: /projects/
 description: Ongoing projects. Looking for collaborators!
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [nlp-course-project, work, fun,]
 horizontal: false
 ---
 
