@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /travel/
 title: travel
 description: Pictures from work and fun-related traveling 
 nav: true
 display_categories: [travel]
-nav_order: 
+nav_order: 3.5
 horizontal: false
 ---
 

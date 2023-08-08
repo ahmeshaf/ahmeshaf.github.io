@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
+title: Event coreference resolution on figurative event phrases
 description: a project with a background image
-img: assets/img/3.jpg
+img: assets/img/projects/analogies.png
 importance: 2
 category: work
 ---

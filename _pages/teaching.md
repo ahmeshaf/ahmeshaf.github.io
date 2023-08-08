@@ -1,11 +1,11 @@
 ---
 layout: page
 permalink: /teaching/
-title: travel
+title: teaching
 description: Materials for courses I teach.
 nav: true
 display_categories: [teaching]
-nav_order: 3.5
+nav_order: 0.5
 ---
 
 <!-- pages/projects.md -->

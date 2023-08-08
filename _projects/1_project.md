@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
+title: Event coreference resolution with GPT
 description: a project with a background image
-img: assets/img/12.jpg
+img: assets/img/projects/coref_1.jpg
 importance: 1
 category: work
 ---
