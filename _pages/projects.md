@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Ongoing projects. Looking for collaborators.
+description: Ongoing projects. Looking for collaborators!
 nav: true
 nav_order: 2
 display_categories: [work, fun]
