@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Shafiuddin Rehan ahmed
+      value: Shafiuddin Rehan Ahmed
     - name: Birth Day
       value: November 3
     - name: Languages
@@ -67,7 +67,7 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Natural Language Processing (Graduate Level)
+    - title: <a href="/projects/nlp_2023/">Natural Language Processing (Graduate Level)</a>
       institution: University of Colorado, Boulder, USA
       year: Fall 2023
       description: Teaching Assistant
