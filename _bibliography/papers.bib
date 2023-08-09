@@ -1,35 +1,45 @@
-@inproceedings{ahmed-etal-2023-model,
-    title = {How Good is the Model in Model-in-the-loop Event Coreference Resolution Annotation?},
+@inproceedings{ahmed-etal-2023-good,
+    title = "How Good Is the Model in Model-in-the-loop Event Coreference Resolution Annotation?",
     author = "Ahmed, Shafiuddin Rehan  and
       Nath, Abhijnan  and
-      Michael Regan and
-      Adam Pollins and
-      Krishnaswamy, Nikhil and
+      Regan, Michael  and
+      Pollins, Adam  and
+      Krishnaswamy, Nikhil  and
       Martin, James H.",
-    booktitle = "The Seventeenth Linguistic Annotation Workshop, 2023",
-    month = July,
+    booktitle = "Proceedings of the 17th Linguistic Annotation Workshop (LAW-XVII)",
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.law-1.14",
+    doi = "10.18653/v1/2023.law-1.14",
+    pages = "136--145",
+    abstract = "Annotating cross-document event coreference links is a time-consuming and cognitively demanding task that can compromise annotation quality and efficiency. To address this, we propose a model-in-the-loop annotation approach for event coreference resolution, where a machine learning model suggests likely corefering event pairs only. We evaluate the effectiveness of this approach by first simulating the annotation process and then, using a novel annotator-centric Recall-Annotation effort trade-off metric, we compare the results of various underlying models and datasets. We finally present a method for obtaining 97{\%} recall while substantially reducing the workload required by a fully manual annotation process.",
     preview={LAW17_Logo.svg},
     selected={true},
-    html={https://arxiv.org/abs/2306.05434}
+    bibtex_show={true},
+    code="https://github.com/ahmeshaf/model_in_coref"
 }
 
-@inproceedings{ahmed-etal-2023-decompose,
-    title = {\($2*n$\)~is better than \($n^2$\): Decomposing Event Coreference Resolution into Two Tractable Problems.},
+@inproceedings{ahmed-etal-2023-2,
+    title = "$2*n$ is better than $n^2$: Decomposing Event Coreference Resolution into Two Tractable Problems",
     author = "Ahmed, Shafiuddin Rehan  and
       Nath, Abhijnan  and
       Martin, James H.  and
       Krishnaswamy, Nikhil",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = July,
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.100",
+    doi = "10.18653/v1/2023.findings-acl.100",
+    pages = "1569--1583",
+    abstract = "Event Coreference Resolution (ECR) is the task of linking mentions of the same event either within or across documents. Most mention pairs are not coreferent, yet many that are coreferent can be identified through simple techniques such as lemma matching of the event triggers or the sentences in which they appear. Existing methods for training coreference systems sample from a largely skewed distribution, making it difficult for the algorithm to learn coreference beyond surface matching. Additionally, these methods are intractable because of the quadratic operations needed. To address these challenges, we break the problem of ECR into two parts: a) a heuristic to efficiently filter out a large number of non-coreferent pairs, and b) a training approach on a balanced set of coreferent and non-coreferent mention pairs. By following this approach, we show that we get comparable results to the state of the art on two popular ECR datasets while significantly reducing compute requirements. We also analyze the mention pairs that are {``}hard{''} to accurately classify as coreferent or non-coreferentcode repo: $\mathtt{github.com/ahmeshaf/lemma\_ce\_coref}$.",
     preview={acl-logo.svg},
     selected={true},
-    html={https://arxiv.org/abs/2305.05672}
+    bibtex_show={true},
+    code="https://github.com/ahmeshaf/lemma_ce_coref"
 }
 
 
@@ -37,7 +47,7 @@
       title={{From Algebraic Word Problem to Program: A Formalized Approach}},
       author={Adam Wiemerslage and Shafiuddin Rehan Ahmed},
       year={2018},
-      html={https://arxiv.org/abs/2003.11517},
+      url={https://arxiv.org/abs/2003.11517},
       eprint={2003.11517},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -48,7 +58,7 @@
       title={{Within-Document Event Coreference with BERT-Based Contextualized Representations}},
       author={Shafiuddin Rehan Ahmed and James H. Martin},
       year={2020},
-      html={https://arxiv.org/abs/2102.09600},
+      url={https://arxiv.org/abs/2102.09600},
       eprint={2102.09600},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -57,7 +67,7 @@
 
 @article{10.13140/rg.2.2.26121.93282,
   doi = {10.13140/RG.2.2.26121.93282},
-  html = {https://rgdoi.net/10.13140/RG.2.2.26121.93282},
+  url = {https://rgdoi.net/10.13140/RG.2.2.26121.93282},
   author = {Shafiuddin Rehan Ahmed and {Dhanendra Soni}},
   title = {{Wikification via Binary and Ranking Techniques}},
   publisher = {Unpublished},
@@ -67,7 +77,7 @@
 
 @article{10.13140/rg.2.2.23249.86886,
   doi = {10.13140/RG.2.2.23249.86886},
-  html = {http://rgdoi.net/10.13140/RG.2.2.23249.86886},
+  url = {http://rgdoi.net/10.13140/RG.2.2.23249.86886},
   author = {Shafiuddin Rehan Ahmed},
   language = {en},
   title = {{CharTransE: An Extension of TransE on Character n-grams}},
@@ -78,7 +88,7 @@
 
 @misc{US20210049489A1,
   doi = {US20210049489A1},
-  html = {https://patents.google.com/patent/US20210049489A1/},
+  url = {https://patents.google.com/patent/US20210049489A1/},
   author = {Shameed Sait M A and Shafiuddin Rehan Ahmed and Niranjan Damera Venkata},
   language = {en},
   title = {Providing Solutions Using Stochastic Modelling},
@@ -95,5 +105,5 @@
 	publisher = {NIST},
 	booktitle = {Proceedings of the 2018 Text Analysis Conference, TAC 2018, Gaithersburg, Maryland, USA, November 13-14, 2018},
   preview={tac.jpeg},
-  html={https://tac.nist.gov/publications/2018/participant.papers/TAC2018.ramfis_aida.proceedings.pdf}
+  url={https://tac.nist.gov/publications/2018/participant.papers/TAC2018.ramfis_aida.proceedings.pdf}
 }
