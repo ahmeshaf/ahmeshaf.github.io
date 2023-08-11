@@ -47,12 +47,25 @@ Consider the following examples with marked event triggers (word or phrase refer
 Now the task of ECR is to predict that E1 and E3 are coreferring events, and that E2 is a related but 
 different event from E1 and E3.
 
-ECR is typically tackled by performing pairwise predictions on mention pairs, then, clustering on the
+ECR is typically tackled by performing pairwise predictions on mention pairs, then, clustering on
 those predictions. The pairwise scorer is trained by using a joint feature space of the two mentions.
 Now, the goal of this project is to probe GPT-4 by using it as the pairwise scorer. The task involves 
 engineering various strategies for in-context learning.
+## Motivation
+## References
+ - [https://aclanthology.org/2023.findings-acl.100](https://aclanthology.org/2021.emnlp-main.106/)
+ - [https://aclanthology.org/2021.emnlp-main.106/](https://aclanthology.org/2021.emnlp-main.106/)
 
+## GitHub Repo
+[https://github.com/ahmeshaf/lemma_ce_coref](https://github.com/ahmeshaf/lemma_ce_coref)
+
+You can fork this repository for this project
 ## Required Skills
-1. git: Ability to collaborate and maintain a repository
+1. pyhon experience with PyTorch, Huggingface, OpenAI GPT API, spaCy
 2. writing: LateX
-3. Experience with PyTorch, Huggingface, OpenAI GPT API, spaCy
+3. git: Ability to collaborate and maintain a code repository
+
+## Deadlines
+A. November 15, 2023
+
+B. December 15, 2023
