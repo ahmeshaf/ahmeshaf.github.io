@@ -170,9 +170,9 @@
           <article>
             <h2 id="introduction">Introduction</h2>
 
-<p>Event coreference resolution (ECR) is the task of finding mentions of the same event within 
-the same document (known as <em>within-document coreference resolution</em>, or WDCR), or across 
-text (known as <em>cross-document coreference resolution</em>, or  CDCR) documents. 
+<p>Event coreference resolution (ECR) is the task of finding mentions of the same event within
+the same document (known as <em>within-document coreference resolution</em>, or WDCR), or across
+text (known as <em>cross-document coreference resolution</em>, or  CDCR) documents.
 This task is used for knowledge graph construction, event salience detection and question answering.</p>
 
 <p>Consider the following examples with marked event triggers (word or phrase referring to the event):</p>
@@ -204,14 +204,56 @@ This task is used for knowledge graph construction, event salience detection and
 
 </ol>
 
-<p>Now the task of ECR is to predict that E1 and E3 are coreferring events, and that E2 is a related but 
+<p>Now the task of ECR is to predict that E1 and E3 are coreferring events, and that E2 is a related but
 different event from E1 and E3.</p>
 
 <p>ECR is typically tackled by performing pairwise predictions on mention pairs, then, clustering on
 those predictions. The pairwise scorer is trained by using a joint feature space of the two mentions.
-Now, the goal of this project is to probe GPT-4 by using it as the pairwise scorer. The task involves 
+Now, the goal of this project is to probe GPT-4 by using it as the pairwise scorer. The task involves
 engineering various strategies for in-context learning.</p>
 <h2 id="motivation">Motivation</h2>
+<p>GPT seems to be really good at this task! Checkout the examples below</p>
+
+<div class="caption">
+    <div class="col-sm mt-3 mt-md-0">
+            <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/gpt_coref_1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="GPT Coref Example 1" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    GPT does well on alternative interpretations of corefering events.
+</div>
+
+<div class="caption">
+    <div class="col-sm mt-3 mt-md-0">
+            <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/projects/gpt_coref_2.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="GPT Coref Example 2" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    GPT has implicit temporal knowledge of world events.
+</div>
+
+<p>While it seems to be good on examples on which fine-tuned BERT based models fail,
+it will be interesting to show how well does it do on a complete dataset filled
+with all kinds of examples.</p>
+
 <h2 id="references">References</h2>
 <ul>
   <li><a href="https://aclanthology.org/2021.emnlp-main.106/" rel="external nofollow noopener" target="_blank">https://aclanthology.org/2023.findings-acl.100</a></li>
@@ -245,7 +287,7 @@ engineering various strategies for in-context learning.</p>
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Shafiuddin Rehan  Ahmed. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Icon using Dall-e.
-Last updated: August 25, 2023.
+Last updated: August 28, 2023.
       </div>
     </footer>
 
