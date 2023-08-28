@@ -24,8 +24,8 @@ The Indian navy's net of justice has <m> ensnared </m> 23 Somalian sea wolves.
 - Create high-quality examples through multiple rounds of adjudications by also
   identifying standard and metaphorical versions of the events.
 - Produce baseline results using existing methods. The goal here is produce
-  a dataset that fail on simple heuristics and achieve a lower results on
-  existing methods.
+  a dataset on which simple heuristics fail completely, and existing methods
+  score low in performance.
 
 ### Useful References
 
