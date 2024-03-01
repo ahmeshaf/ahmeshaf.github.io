@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-01-22
+date: 2024-02-20
 inline: true
 related_posts: false
 ---
 
-Our paper *X-AMR Annotation Tool* was accepted for System Demo at EACL, 2024!
+Our paper *Linear Cross-document Event Coreference Resolution with X-AMR* was accepted at LREC-COLING 2024!
