@@ -21,4 +21,4 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a 5th year PhD Candidate in the Department of Computer Science at the University of Colorado, Boulder advised by
-[James H. Martin](https://home.cs.colorado.edu/~martin/). My research interest lies in the fundamental understanding of actions and events in language and efficient Natural Language Processing. My most recent projects revolve around tractable methods for Event Coreference Resolution.
+[James H. Martin](https://home.cs.colorado.edu/~martin/). My research interest lies in the fundamental understanding of actions and events in language and efficient Natural Language Processing. My most recent projects revolve around tractable methods for Event Coreference Resolution. I also interned twice at [explosion.ai](https://explosion.ai/) (makers of [spaCy](https://spacy.io/)).
