@@ -3,7 +3,7 @@ layout: about
 title: about
 
 permalink: /
-<!-- subtitle:  PhD Candidate in Dept. of Computer Science at <a href='https://www.colorado.edu/lab/clear/nlp-cu-boulder'>CU Boulder</a> -->
+<!-- subtitle:  Research Scientist at Center for Advanced AI, Accenture -->
 
 profile:
   align: left
