@@ -46,6 +46,20 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
 
+    <!-- Redirect ahmeshaf.github.io visitors to the canonical custom domain -->
+    <script>
+      (function () {
+        if (window.location.hostname === 'ahmeshaf.github.io') {
+          window.location.replace(
+            'https://ahmeshaf.com' +
+            window.location.pathname +
+            window.location.search +
+            window.location.hash
+          );
+        }
+      })();
+    </script>
+
     <!-- Dark Mode -->
     {% if site.enable_darkmode %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
