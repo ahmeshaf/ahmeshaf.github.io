@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ahmeshaf.github.io/sitemap.xml
+Sitemap: https://ahmeshaf.com/sitemap.xml
